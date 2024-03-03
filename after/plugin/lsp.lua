@@ -20,7 +20,9 @@ require('mason').setup({})
 require('mason-lspconfig').setup({
     ensure_installed = {
         'clangd',
-        'lua_ls'
+        'lua_ls',
+        'gopls',
+        'yamlls'
     },
     handlers = {
         lsp.default_setup,
